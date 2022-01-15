@@ -1,0 +1,81 @@
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body {
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+}
+
+#container {
+    width: 610px;
+    min-height: 100vh;
+    border: 4px solid black;
+    margin: 150px auto;
+    text-align: center;
+    /* box-shadow: 0 0 20px gainsboro; */
+    color: black;
+    background-color: rgb(134, 223, 134);
+    border-radius: 20%;
+}
+h1 {
+    margin: 20px 0;
+    font-size: 30px;
+    color: black;
+}
+.line {
+    width: 80%;
+    text-align: center;
+    height: 4px;
+    margin: 10px auto;
+    background-color: black;
+}
+.container-list {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+input {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: crimson;
+    transform: scale(1.1);
+}
+
+#tasK {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#completed {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.checklist-bar:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+    background-color: blue;
+}
+.delete-bar:hover {
+    transition: all 0.7s;
+    box-shadow: 0 0 5px grey;
+    transform: scale(1.1);
+    background-color: blue;
+}
